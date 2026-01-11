@@ -1,0 +1,1382 @@
+{
+  "fields": [
+    {
+      "name": "provider",
+      "data_type": "string",
+      "nullable": false,
+      "sample_values": [
+        "https://www.exchangerate-api.com"
+      ]
+    },
+    {
+      "name": "WARNING_UPGRADE_TO_V6",
+      "data_type": "string",
+      "nullable": false,
+      "sample_values": [
+        "https://www.exchangerate-api.com/docs/free"
+      ]
+    },
+    {
+      "name": "terms",
+      "data_type": "string",
+      "nullable": false,
+      "sample_values": [
+        "https://www.exchangerate-api.com/terms"
+      ]
+    },
+    {
+      "name": "base",
+      "data_type": "string",
+      "nullable": false,
+      "sample_values": [
+        "USD"
+      ]
+    },
+    {
+      "name": "date",
+      "data_type": "datetime_string",
+      "nullable": false,
+      "sample_values": [
+        "2026-01-11"
+      ]
+    },
+    {
+      "name": "time_last_updated",
+      "data_type": "integer",
+      "nullable": false,
+      "sample_values": [
+        1768089601
+      ]
+    },
+    {
+      "name": "rates.USD",
+      "data_type": "integer",
+      "nullable": false,
+      "sample_values": [
+        1
+      ]
+    },
+    {
+      "name": "rates.AED",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        3.67
+      ]
+    },
+    {
+      "name": "rates.AFN",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        66.08
+      ]
+    },
+    {
+      "name": "rates.ALL",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        82.69
+      ]
+    },
+    {
+      "name": "rates.AMD",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        381.35
+      ]
+    },
+    {
+      "name": "rates.ANG",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        1.79
+      ]
+    },
+    {
+      "name": "rates.AOA",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        919.43
+      ]
+    },
+    {
+      "name": "rates.ARS",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        1452.25
+      ]
+    },
+    {
+      "name": "rates.AUD",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        1.5
+      ]
+    },
+    {
+      "name": "rates.AWG",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        1.79
+      ]
+    },
+    {
+      "name": "rates.AZN",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        1.7
+      ]
+    },
+    {
+      "name": "rates.BAM",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        1.68
+      ]
+    },
+    {
+      "name": "rates.BBD",
+      "data_type": "integer",
+      "nullable": false,
+      "sample_values": [
+        2
+      ]
+    },
+    {
+      "name": "rates.BDT",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        122.19
+      ]
+    },
+    {
+      "name": "rates.BGN",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        1.66
+      ]
+    },
+    {
+      "name": "rates.BHD",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        0.376
+      ]
+    },
+    {
+      "name": "rates.BIF",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        2968.09
+      ]
+    },
+    {
+      "name": "rates.BMD",
+      "data_type": "integer",
+      "nullable": false,
+      "sample_values": [
+        1
+      ]
+    },
+    {
+      "name": "rates.BND",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        1.29
+      ]
+    },
+    {
+      "name": "rates.BOB",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        6.93
+      ]
+    },
+    {
+      "name": "rates.BRL",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        5.38
+      ]
+    },
+    {
+      "name": "rates.BSD",
+      "data_type": "integer",
+      "nullable": false,
+      "sample_values": [
+        1
+      ]
+    },
+    {
+      "name": "rates.BTN",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        90.16
+      ]
+    },
+    {
+      "name": "rates.BWP",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        13.78
+      ]
+    },
+    {
+      "name": "rates.BYN",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        2.95
+      ]
+    },
+    {
+      "name": "rates.BZD",
+      "data_type": "integer",
+      "nullable": false,
+      "sample_values": [
+        2
+      ]
+    },
+    {
+      "name": "rates.CAD",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        1.39
+      ]
+    },
+    {
+      "name": "rates.CDF",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        2245.57
+      ]
+    },
+    {
+      "name": "rates.CHF",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        0.801
+      ]
+    },
+    {
+      "name": "rates.CLF",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        0.0227
+      ]
+    },
+    {
+      "name": "rates.CLP",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        896.93
+      ]
+    },
+    {
+      "name": "rates.CNH",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        6.98
+      ]
+    },
+    {
+      "name": "rates.CNY",
+      "data_type": "integer",
+      "nullable": false,
+      "sample_values": [
+        7
+      ]
+    },
+    {
+      "name": "rates.COP",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        3732.96
+      ]
+    },
+    {
+      "name": "rates.CRC",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        497.18
+      ]
+    },
+    {
+      "name": "rates.CUP",
+      "data_type": "integer",
+      "nullable": false,
+      "sample_values": [
+        24
+      ]
+    },
+    {
+      "name": "rates.CVE",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        94.73
+      ]
+    },
+    {
+      "name": "rates.CZK",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        20.87
+      ]
+    },
+    {
+      "name": "rates.DJF",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        177.72
+      ]
+    },
+    {
+      "name": "rates.DKK",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        6.41
+      ]
+    },
+    {
+      "name": "rates.DOP",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        63.47
+      ]
+    },
+    {
+      "name": "rates.DZD",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        129.94
+      ]
+    },
+    {
+      "name": "rates.EGP",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        47.28
+      ]
+    },
+    {
+      "name": "rates.ERN",
+      "data_type": "integer",
+      "nullable": false,
+      "sample_values": [
+        15
+      ]
+    },
+    {
+      "name": "rates.ETB",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        154.11
+      ]
+    },
+    {
+      "name": "rates.EUR",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        0.859
+      ]
+    },
+    {
+      "name": "rates.FJD",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        2.28
+      ]
+    },
+    {
+      "name": "rates.FKP",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        0.745
+      ]
+    },
+    {
+      "name": "rates.FOK",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        6.41
+      ]
+    },
+    {
+      "name": "rates.GBP",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        0.745
+      ]
+    },
+    {
+      "name": "rates.GEL",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        2.7
+      ]
+    },
+    {
+      "name": "rates.GGP",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        0.745
+      ]
+    },
+    {
+      "name": "rates.GHS",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        10.73
+      ]
+    },
+    {
+      "name": "rates.GIP",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        0.745
+      ]
+    },
+    {
+      "name": "rates.GMD",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        73.87
+      ]
+    },
+    {
+      "name": "rates.GNF",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        8747.56
+      ]
+    },
+    {
+      "name": "rates.GTQ",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        7.67
+      ]
+    },
+    {
+      "name": "rates.GYD",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        209.15
+      ]
+    },
+    {
+      "name": "rates.HKD",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        7.79
+      ]
+    },
+    {
+      "name": "rates.HNL",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        26.37
+      ]
+    },
+    {
+      "name": "rates.HRK",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        6.47
+      ]
+    },
+    {
+      "name": "rates.HTG",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        130.97
+      ]
+    },
+    {
+      "name": "rates.HUF",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        331.13
+      ]
+    },
+    {
+      "name": "rates.IDR",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        16817.18
+      ]
+    },
+    {
+      "name": "rates.ILS",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        3.16
+      ]
+    },
+    {
+      "name": "rates.IMP",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        0.745
+      ]
+    },
+    {
+      "name": "rates.INR",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        90.18
+      ]
+    },
+    {
+      "name": "rates.IQD",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        1310.63
+      ]
+    },
+    {
+      "name": "rates.IRR",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        42085.03
+      ]
+    },
+    {
+      "name": "rates.ISK",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        126.57
+      ]
+    },
+    {
+      "name": "rates.JEP",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        0.745
+      ]
+    },
+    {
+      "name": "rates.JMD",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        158.13
+      ]
+    },
+    {
+      "name": "rates.JOD",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        0.709
+      ]
+    },
+    {
+      "name": "rates.JPY",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        157.74
+      ]
+    },
+    {
+      "name": "rates.KES",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        128.97
+      ]
+    },
+    {
+      "name": "rates.KGS",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        87.39
+      ]
+    },
+    {
+      "name": "rates.KHR",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        4018.7
+      ]
+    },
+    {
+      "name": "rates.KID",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        1.5
+      ]
+    },
+    {
+      "name": "rates.KMF",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        422.66
+      ]
+    },
+    {
+      "name": "rates.KRW",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        1457.38
+      ]
+    },
+    {
+      "name": "rates.KWD",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        0.307
+      ]
+    },
+    {
+      "name": "rates.KYD",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        0.833
+      ]
+    },
+    {
+      "name": "rates.KZT",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        510.51
+      ]
+    },
+    {
+      "name": "rates.LAK",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        21687.24
+      ]
+    },
+    {
+      "name": "rates.LBP",
+      "data_type": "integer",
+      "nullable": false,
+      "sample_values": [
+        89500
+      ]
+    },
+    {
+      "name": "rates.LKR",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        309.63
+      ]
+    },
+    {
+      "name": "rates.LRD",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        179.14
+      ]
+    },
+    {
+      "name": "rates.LSL",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        16.5
+      ]
+    },
+    {
+      "name": "rates.LYD",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        5.42
+      ]
+    },
+    {
+      "name": "rates.MAD",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        9.23
+      ]
+    },
+    {
+      "name": "rates.MDL",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        16.86
+      ]
+    },
+    {
+      "name": "rates.MGA",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        4597.65
+      ]
+    },
+    {
+      "name": "rates.MKD",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        52.82
+      ]
+    },
+    {
+      "name": "rates.MMK",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        2103.03
+      ]
+    },
+    {
+      "name": "rates.MNT",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        3559.19
+      ]
+    },
+    {
+      "name": "rates.MOP",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        8.03
+      ]
+    },
+    {
+      "name": "rates.MRU",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        39.97
+      ]
+    },
+    {
+      "name": "rates.MUR",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        46.59
+      ]
+    },
+    {
+      "name": "rates.MVR",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        15.44
+      ]
+    },
+    {
+      "name": "rates.MWK",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        1744.79
+      ]
+    },
+    {
+      "name": "rates.MXN",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        17.99
+      ]
+    },
+    {
+      "name": "rates.MYR",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        4.07
+      ]
+    },
+    {
+      "name": "rates.MZN",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        63.59
+      ]
+    },
+    {
+      "name": "rates.NAD",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        16.5
+      ]
+    },
+    {
+      "name": "rates.NGN",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        1423.06
+      ]
+    },
+    {
+      "name": "rates.NIO",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        36.8
+      ]
+    },
+    {
+      "name": "rates.NOK",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        10.1
+      ]
+    },
+    {
+      "name": "rates.NPR",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        144.25
+      ]
+    },
+    {
+      "name": "rates.NZD",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        1.74
+      ]
+    },
+    {
+      "name": "rates.OMR",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        0.384
+      ]
+    },
+    {
+      "name": "rates.PAB",
+      "data_type": "integer",
+      "nullable": false,
+      "sample_values": [
+        1
+      ]
+    },
+    {
+      "name": "rates.PEN",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        3.36
+      ]
+    },
+    {
+      "name": "rates.PGK",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        4.26
+      ]
+    },
+    {
+      "name": "rates.PHP",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        59.27
+      ]
+    },
+    {
+      "name": "rates.PKR",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        282.01
+      ]
+    },
+    {
+      "name": "rates.PLN",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        3.62
+      ]
+    },
+    {
+      "name": "rates.PYG",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        6712.36
+      ]
+    },
+    {
+      "name": "rates.QAR",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        3.64
+      ]
+    },
+    {
+      "name": "rates.RON",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        4.37
+      ]
+    },
+    {
+      "name": "rates.RSD",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        100.6
+      ]
+    },
+    {
+      "name": "rates.RUB",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        79.34
+      ]
+    },
+    {
+      "name": "rates.RWF",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        1459.44
+      ]
+    },
+    {
+      "name": "rates.SAR",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        3.75
+      ]
+    },
+    {
+      "name": "rates.SBD",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        8.02
+      ]
+    },
+    {
+      "name": "rates.SCR",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        14.28
+      ]
+    },
+    {
+      "name": "rates.SDG",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        509.07
+      ]
+    },
+    {
+      "name": "rates.SEK",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        9.22
+      ]
+    },
+    {
+      "name": "rates.SGD",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        1.29
+      ]
+    },
+    {
+      "name": "rates.SHP",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        0.745
+      ]
+    },
+    {
+      "name": "rates.SLE",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        23.84
+      ]
+    },
+    {
+      "name": "rates.SLL",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        23836.61
+      ]
+    },
+    {
+      "name": "rates.SOS",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        570.19
+      ]
+    },
+    {
+      "name": "rates.SRD",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        38.18
+      ]
+    },
+    {
+      "name": "rates.SSP",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        4687.8
+      ]
+    },
+    {
+      "name": "rates.STN",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        21.05
+      ]
+    },
+    {
+      "name": "rates.SYP",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        113.97
+      ]
+    },
+    {
+      "name": "rates.SZL",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        16.5
+      ]
+    },
+    {
+      "name": "rates.THB",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        31.43
+      ]
+    },
+    {
+      "name": "rates.TJS",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        9.23
+      ]
+    },
+    {
+      "name": "rates.TMT",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        3.5
+      ]
+    },
+    {
+      "name": "rates.TND",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        2.89
+      ]
+    },
+    {
+      "name": "rates.TOP",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        2.39
+      ]
+    },
+    {
+      "name": "rates.TRY",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        43.12
+      ]
+    },
+    {
+      "name": "rates.TTD",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        6.77
+      ]
+    },
+    {
+      "name": "rates.TVD",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        1.5
+      ]
+    },
+    {
+      "name": "rates.TWD",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        31.63
+      ]
+    },
+    {
+      "name": "rates.TZS",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        2456.72
+      ]
+    },
+    {
+      "name": "rates.UAH",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        43.06
+      ]
+    },
+    {
+      "name": "rates.UGX",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        3572.55
+      ]
+    },
+    {
+      "name": "rates.UYU",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        38.96
+      ]
+    },
+    {
+      "name": "rates.UZS",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        12124.34
+      ]
+    },
+    {
+      "name": "rates.VES",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        330.38
+      ]
+    },
+    {
+      "name": "rates.VND",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        26184.69
+      ]
+    },
+    {
+      "name": "rates.VUV",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        120.28
+      ]
+    },
+    {
+      "name": "rates.WST",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        2.74
+      ]
+    },
+    {
+      "name": "rates.XAF",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        563.54
+      ]
+    },
+    {
+      "name": "rates.XCD",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        2.7
+      ]
+    },
+    {
+      "name": "rates.XCG",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        1.79
+      ]
+    },
+    {
+      "name": "rates.XDR",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        0.731
+      ]
+    },
+    {
+      "name": "rates.XOF",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        563.54
+      ]
+    },
+    {
+      "name": "rates.XPF",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        102.52
+      ]
+    },
+    {
+      "name": "rates.YER",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        238.41
+      ]
+    },
+    {
+      "name": "rates.ZAR",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        16.5
+      ]
+    },
+    {
+      "name": "rates.ZMW",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        19.71
+      ]
+    },
+    {
+      "name": "rates.ZWG",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        25.72
+      ]
+    },
+    {
+      "name": "rates.ZWL",
+      "data_type": "float",
+      "nullable": false,
+      "sample_values": [
+        25.72
+      ]
+    }
+  ],
+  "total_fields": 172,
+  "timestamp": "2026-01-11 15:06:22.219882"
+}
