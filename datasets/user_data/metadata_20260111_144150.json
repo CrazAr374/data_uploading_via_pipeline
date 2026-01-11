@@ -1,0 +1,12 @@
+{
+  "api_name": "user_data",
+  "api_url": "https://jsonplaceholder.typicode.com/users",
+  "fetch_timestamp": "2026-01-11T14:41:41.203899",
+  "record_count": 10,
+  "schema_changes": [],
+  "transformations_applied": [],
+  "transformation_details": {
+    "total_transformations": 0,
+    "transformations": []
+  }
+}
