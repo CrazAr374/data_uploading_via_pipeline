@@ -1,0 +1,186 @@
+{
+  "fields": [
+    {
+      "name": "id",
+      "data_type": "integer",
+      "nullable": false,
+      "sample_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "name": "name",
+      "data_type": "string",
+      "nullable": false,
+      "sample_values": [
+        "Leanne Graham",
+        "Ervin Howell",
+        "Clementine Bauch",
+        "Patricia Lebsack",
+        "Chelsey Dietrich"
+      ]
+    },
+    {
+      "name": "username",
+      "data_type": "string",
+      "nullable": false,
+      "sample_values": [
+        "Bret",
+        "Antonette",
+        "Samantha",
+        "Karianne",
+        "Kamren"
+      ]
+    },
+    {
+      "name": "email",
+      "data_type": "string",
+      "nullable": false,
+      "sample_values": [
+        "Sincere@april.biz",
+        "Shanna@melissa.tv",
+        "Nathan@yesenia.net",
+        "Julianne.OConner@kory.org",
+        "Lucio_Hettinger@annie.ca"
+      ]
+    },
+    {
+      "name": "address.street",
+      "data_type": "string",
+      "nullable": false,
+      "sample_values": [
+        "Kulas Light",
+        "Victor Plains",
+        "Douglas Extension",
+        "Hoeger Mall",
+        "Skiles Walks"
+      ]
+    },
+    {
+      "name": "address.suite",
+      "data_type": "string",
+      "nullable": false,
+      "sample_values": [
+        "Apt. 556",
+        "Suite 879",
+        "Suite 847",
+        "Apt. 692",
+        "Suite 351"
+      ]
+    },
+    {
+      "name": "address.city",
+      "data_type": "string",
+      "nullable": false,
+      "sample_values": [
+        "Gwenborough",
+        "Wisokyburgh",
+        "McKenziehaven",
+        "South Elvis",
+        "Roscoeview"
+      ]
+    },
+    {
+      "name": "address.zipcode",
+      "data_type": "string",
+      "nullable": false,
+      "sample_values": [
+        "92998-3874",
+        "90566-7771",
+        "59590-4157",
+        "53919-4257",
+        "33263"
+      ]
+    },
+    {
+      "name": "address.geo.lat",
+      "data_type": "string",
+      "nullable": false,
+      "sample_values": [
+        "-37.3159",
+        "-43.9509",
+        "-68.6102",
+        "29.4572",
+        "-31.8129"
+      ]
+    },
+    {
+      "name": "address.geo.lng",
+      "data_type": "string",
+      "nullable": false,
+      "sample_values": [
+        "81.1496",
+        "-34.4618",
+        "-47.0653",
+        "-164.2990",
+        "62.5342"
+      ]
+    },
+    {
+      "name": "phone",
+      "data_type": "string",
+      "nullable": false,
+      "sample_values": [
+        "1-770-736-8031 x56442",
+        "010-692-6593 x09125",
+        "1-463-123-4447",
+        "493-170-9623 x156",
+        "(254)954-1289"
+      ]
+    },
+    {
+      "name": "website",
+      "data_type": "string",
+      "nullable": false,
+      "sample_values": [
+        "hildegard.org",
+        "anastasia.net",
+        "ramiro.info",
+        "kale.biz",
+        "demarco.info"
+      ]
+    },
+    {
+      "name": "company.name",
+      "data_type": "string",
+      "nullable": false,
+      "sample_values": [
+        "Romaguera-Crona",
+        "Deckow-Crist",
+        "Romaguera-Jacobson",
+        "Robel-Corkery",
+        "Keebler LLC"
+      ]
+    },
+    {
+      "name": "company.catchPhrase",
+      "data_type": "string",
+      "nullable": false,
+      "sample_values": [
+        "Multi-layered client-server neural-net",
+        "Proactive didactic contingency",
+        "Face to face bifurcated interface",
+        "Multi-tiered zero tolerance productivity",
+        "User-centric fault-tolerant solution"
+      ]
+    },
+    {
+      "name": "company.bs",
+      "data_type": "string",
+      "nullable": false,
+      "sample_values": [
+        "harness real-time e-markets",
+        "synergize scalable supply-chains",
+        "e-enable strategic applications",
+        "transition cutting-edge web services",
+        "revolutionize end-to-end systems"
+      ]
+    }
+  ],
+  "total_fields": 15,
+  "timestamp": "2026-01-11 14:41:41.261186"
+}
